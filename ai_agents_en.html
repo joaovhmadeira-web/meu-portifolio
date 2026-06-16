@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>João Victor — Degrees &amp; Certifications</title>
+  <title>João Victor — AI Agents</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -18,9 +18,9 @@
       <a href="index_en.html" class="nav-brand">João Victor</a>
       <ul class="nav-links">
         <li><a href="index_en.html">Home</a></li>
-        <li><a href="ai_agents_en.html">AI Agents</a></li>
+        <li class="active"><a href="ai_agents_en.html">AI Agents</a></li>
         <li><a href="data_analytics_en.html">Data Analysis</a></li>
-        <li class="active"><a href="degrees_en.html">Degrees &amp; Certifications</a></li>
+        <li><a href="degrees_en.html">Degrees &amp; Certifications</a></li>
       </ul>
       <div class="nav-actions">
         <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="nav-icon" title="LinkedIn">
@@ -31,7 +31,7 @@
           <i class="fab fa-github"></i>
           <span class="sr-only">GitHub</span>
         </a>
-        <a href="degrees.html" class="nav-lang">
+        <a href="ai_agents.html" class="nav-lang">
           <i class="fas fa-globe"></i>
           Português
         </a>
@@ -46,9 +46,9 @@
   <div class="nav-mobile" id="navMobile">
     <ul>
       <li><a href="index_en.html">Home</a></li>
-      <li><a href="ai_agents_en.html">AI Agents</a></li>
+      <li class="active"><a href="ai_agents_en.html">AI Agents</a></li>
       <li><a href="data_analytics_en.html">Data Analysis</a></li>
-      <li class="active"><a href="degrees_en.html">Degrees &amp; Certifications</a></li>
+      <li><a href="degrees_en.html">Degrees &amp; Certifications</a></li>
     </ul>
     <div class="nav-mobile-divider"></div>
     <div class="nav-mobile-actions">
@@ -58,7 +58,7 @@
       <a href="https://github.com/JoaoVictor-HM" target="_blank" class="nav-icon" title="GitHub">
         <i class="fab fa-github"></i>
       </a>
-      <a href="degrees.html" class="nav-lang" style="margin-left:auto">
+      <a href="ai_agents.html" class="nav-lang" style="margin-left:auto">
         <i class="fas fa-globe"></i> Português
       </a>
     </div>
@@ -85,7 +85,7 @@
       </p>
       <a href="#main-content" class="hero-cta">
         <i class="fas fa-arrow-down"></i>
-        View Education
+        View Projects
       </a>
     </div>
   </section>
@@ -113,54 +113,133 @@
 
   <!-- MAIN -->
   <main class="main-wrap" id="main-content">
+
     <div class="section-header">
-      <p class="section-eyebrow">Education</p>
-      <h2 class="section-title">Degrees &amp; Certifications</h2>
+      <p class="section-eyebrow">Projects</p>
+      <h2 class="section-title">AI Agents</h2>
     </div>
 
-    <div class="degrees-list">
+    <div class="cards-grid">
 
-      <!-- Bachelor's Degree -->
-      <article class="degree-card">
-        <div class="degree-card-body">
-          <span class="degree-badge academic">
-            <i class="fas fa-graduation-cap"></i>
-            Bachelor's Degree
-          </span>
-          <h3 class="degree-title">Bachelor's Degree in Computer Science</h3>
-          <p class="degree-date">
+      <article class="card">
+        <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/hubspot.json" target="_blank" class="card-thumb">
+          <img src="images/hubspot.png" alt="HubSpot Workflow" />
+          <div class="card-thumb-overlay"></div>
+        </a>
+        <div class="card-body">
+          <span class="card-date">
             <i class="far fa-calendar-alt"></i>
-            August 29, 2022 &nbsp;&middot;&nbsp; UNIFEI
+            November 03, 2025
+          </span>
+          <h3 class="card-title">
+            <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/hubspot.json" target="_blank">
+              HubSpot Ticket Creation and Tracking Workflow
+            </a>
+          </h3>
+          <p class="card-desc">
+            Automation workflow for creating and tracking tickets in HubSpot, built with n8n. Allows ticket creation using natural language and monitoring the status of existing tickets.
           </p>
-          <p class="degree-desc">
-            In August 2022, I graduated in Computer Science from UNIFEI — Federal University of Itajubá.
-          </p>
-        </div>
-        <div class="degree-card-image">
-          <img src="images/graduation-unifei.png" alt="UNIFEI Diploma" />
+          <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/hubspot.json" target="_blank" class="btn">
+            <i class="fab fa-github"></i>
+            View Project
+          </a>
+          <div class="card-tags">
+            <span class="card-tag">n8n</span>
+            <span class="card-tag">HubSpot API</span>
+            <span class="card-tag">AI</span>
+          </div>
         </div>
       </article>
 
-      <!-- Google Certification -->
-      <article class="degree-card">
-        <div class="degree-card-body">
-          <span class="degree-badge certification">
-            <i class="fas fa-certificate"></i>
-            Professional Certification
-          </span>
-          <h3 class="degree-title">Google Data Analytics Professional Certificate</h3>
-          <p class="degree-date">
+      <article class="card">
+        <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/newsletter.json" target="_blank" class="card-thumb">
+          <img src="images/newsletter.png" alt="Newsletter Workflow" />
+          <div class="card-thumb-overlay"></div>
+        </a>
+        <div class="card-body">
+          <span class="card-date">
             <i class="far fa-calendar-alt"></i>
-            November 08, 2022 &nbsp;&middot;&nbsp; Google / Coursera
+            October 11, 2025
+          </span>
+          <h3 class="card-title">
+            <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/newsletter.json" target="_blank">
+              New Tools Release Newsletter Dispatch Workflow
+            </a>
+          </h3>
+          <p class="card-desc">
+            Automation workflow for sending a newsletter about new tool launches, built with n8n. Enables automatic creation and delivery of personalized newsletters from a contact list.
           </p>
-          <p class="degree-desc">
-            Professional certification in data analytics provided by Google in partnership with Coursera. Covers all stages of data analysis, including Excel and R.
-            View my credential on <a href="https://www.credly.com/badges/e001c4ef-7d66-4e16-8115-6a8b89dfe25f/linked_in?t=rl201p" target="_blank">Credly</a>.
-            The capstone project is available <a href="https://notch-reptile-02c.notion.site/Case-Study-Cyclistic-f0c7d992871b4b058aa3d2d21cecae19" target="_blank">here</a>.
-          </p>
+          <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/newsletter.json" target="_blank" class="btn">
+            <i class="fab fa-github"></i>
+            View Project
+          </a>
+          <div class="card-tags">
+            <span class="card-tag">n8n</span>
+            <span class="card-tag">Email API</span>
+            <span class="card-tag">AI</span>
+          </div>
         </div>
-        <div class="degree-card-image">
-          <img src="images/google_certificate.png" alt="Google Data Analytics Certificate" />
+      </article>
+
+      <article class="card">
+        <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/mysql.json" target="_blank" class="card-thumb">
+          <img src="images/mysql.png" alt="MySQL AWS Workflow" />
+          <div class="card-thumb-overlay"></div>
+        </a>
+        <div class="card-body">
+          <span class="card-date">
+            <i class="far fa-calendar-alt"></i>
+            September 15, 2025
+          </span>
+          <h3 class="card-title">
+            <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/mysql.json" target="_blank">
+              SQL Command Execution Workflow for AWS-Hosted MySQL
+            </a>
+          </h3>
+          <p class="card-desc">
+            n8n workflow for executing SQL commands on a MySQL database hosted on AWS. Streamlines remote database administration and operational tasks.
+          </p>
+          <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/mysql.json" target="_blank" class="btn">
+            <i class="fab fa-github"></i>
+            View Project
+          </a>
+          <div class="card-tags">
+            <span class="card-tag">n8n</span>
+            <span class="card-tag">MySQL</span>
+            <span class="card-tag">AWS</span>
+            <span class="card-tag">SQL</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/ppr_tool_calling.json" target="_blank" class="card-thumb">
+          <img src="images/ppr_tool_calling.png" alt="AWS Lambda Workflow" />
+          <div class="card-thumb-overlay"></div>
+        </a>
+        <div class="card-body">
+          <span class="card-date">
+            <i class="far fa-calendar-alt"></i>
+            August 02, 2025
+          </span>
+          <h3 class="card-title">
+            <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/ppr_tool_calling.json" target="_blank">
+              AWS Lambda-Hosted Tool Execution Workflow
+            </a>
+          </h3>
+          <p class="card-desc">
+            n8n workflow for executing tools hosted on AWS Lambda. Manages calls to Lambda functions for complex tasks requiring remote resources, including Fuzzy Clustering code execution.
+          </p>
+          <a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/ppr_tool_calling.json" target="_blank" class="btn">
+            <i class="fab fa-github"></i>
+            View Project
+          </a>
+          <div class="card-tags">
+            <span class="card-tag">n8n</span>
+            <span class="card-tag">AWS Lambda</span>
+            <span class="card-tag">Python</span>
+            <span class="card-tag">AI</span>
+          </div>
         </div>
       </article>
 

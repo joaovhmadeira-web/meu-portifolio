@@ -1,115 +1,209 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Diplomas e Certificações</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Victor — Diplomas e Certificações</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-					<!-- Intro -->
-					<div id="intro">
-						<img src="images/profile-pic.png" alt="profile-pic" width="250" height="250">
-						<h1>Olá meu nome é<br />
-							João Victor</h1>
-						<p>Aqui serão apresentados projetos desenvolvidos por <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank">@joaovictorhm</a> usando API's, n8n, SQL, Power BI, Python e outras ferramentas.<br />
-						<ul class="actions">
-							<li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">João Victor</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="ai_agents.html">Agentes de IA</a></li>
+        <li><a href="data_analytics.html">Análise de Dados</a></li>
+        <li class="active"><a href="degrees.html">Diplomas e Certificações</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="nav-icon" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+        <a href="https://github.com/JoaoVictor-HM" target="_blank" class="nav-icon" title="GitHub">
+          <i class="fab fa-github"></i>
+          <span class="sr-only">GitHub</span>
+        </a>
+        <a href="degrees_en.html" class="nav-lang">
+          <i class="fas fa-globe"></i>
+          English
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="index.html">Agentes de IA</a></li>
-							<li><a href="data_analytics.html">Análise de Dados</a></li>
-							<li class="active"><a href="degrees.html">Diplomas e Certificações</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/JoaoVictor-HM" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-						<ul class="actions" style="margin: 0 0 0 2em;">
-    <li><a href="degrees_en.html" class="button small icon solid fa-language" style="color: #ffffff !important; border-color: #ffffff !important;">English</a></li>
-</ul>
-					</nav>
+  <!-- MOBILE NAV -->
+  <div class="nav-mobile" id="navMobile">
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="ai_agents.html">Agentes de IA</a></li>
+      <li><a href="data_analytics.html">Análise de Dados</a></li>
+      <li class="active"><a href="degrees.html">Diplomas e Certificações</a></li>
+    </ul>
+    <div class="nav-mobile-divider"></div>
+    <div class="nav-mobile-actions">
+      <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="nav-icon" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/JoaoVictor-HM" target="_blank" class="nav-icon" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="degrees_en.html" class="nav-lang" style="margin-left:auto">
+        <i class="fas fa-globe"></i> English
+      </a>
+    </div>
+  </div>
 
-				<!-- Main -->
-					<div id="main">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-avatar-wrap">
+        <div class="hero-avatar-ring"></div>
+        <div class="hero-avatar">
+          <img src="images/profile-pic.png" alt="João Victor" />
+        </div>
+      </div>
+      <span class="hero-eyebrow">Portfólio</span>
+      <h1 class="hero-title">Olá, eu sou<br>João Victor</h1>
+      <p class="hero-subtitle">Automação com IA &amp; Análise de Dados</p>
+      <p class="hero-desc">
+        Projetos desenvolvidos por
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank">@joaovictorhm</a>
+        usando APIs, n8n, SQL, Power BI, Python e outras ferramentas.
+      </p>
+      <a href="#main-content" class="hero-cta">
+        <i class="fas fa-arrow-down"></i>
+        Ver Formação
+      </a>
+    </div>
+  </section>
 
-						<!-- Post -->
-							<section class="post">
-								<header class="major">
-									<span class="date">29 de Agosto de 2022</span>
-									<h2>Bacharelado em <br />
-										Ciências da Computação</h2>
-									<p>Em agosto de 2022 me formei em Ciências da Computação pela UNIFEI - Universidade Federal de Itajubá.</p>
-								</header>
-								<div class="image main"><img src="images/graduation-unifei.png" alt="" /></div>
-							</section>
-							<section class="post">
-								<header class="major">
-									<span class="date">08 de Novembro de 2022</span>
-									<h1>Certificação em Análise de Dados do Google</h1>
-									<p>Em novembro de 2022 concluí minha certificação profissional em análise de dados fornecida pelo Google em parceria com Coursera. Ao longo dessa jornada pude aprender sobre todas as etapas da análise de dados, o que foi fundamental para meu entendimento mais amplo das carreiras de dados. Pude aprender a usar ferramentas como Excel, R e Tableau. Veja minha credencial: <a href="https://www.credly.com/badges/e001c4ef-7d66-4e16-8115-6a8b89dfe25f/linked_in?t=rl201p" target="_blank">clique aqui</a>. Essa certificação envolveu ainda um projeto final, o qual pode ser acessado por <a href="https://notch-reptile-02c.notion.site/Case-Study-Cyclistic-f0c7d992871b4b058aa3d2d21cecae19" target="_blank">aqui</a></p>
-								</header>
-								<div class="image main"><img src="images/google_certificate.png" alt="" /></div>
-							</section>
+  <!-- SKILLS -->
+  <section class="skills-section">
+    <div class="skills-inner">
+      <div class="skills-header">
+        <p class="section-eyebrow">Ferramentas &amp; Tecnologias</p>
+      </div>
+      <div class="skills-chips">
+        <span class="skill-chip"><i class="fas fa-sitemap"></i> n8n</span>
+        <span class="skill-chip"><i class="fab fa-python"></i> Python</span>
+        <span class="skill-chip"><i class="fas fa-chart-pie"></i> Power BI</span>
+        <span class="skill-chip"><i class="fas fa-database"></i> SQL</span>
+        <span class="skill-chip"><i class="fab fa-aws"></i> AWS</span>
+        <span class="skill-chip"><i class="fas fa-chart-line"></i> R</span>
+        <span class="skill-chip"><i class="fas fa-desktop"></i> Streamlit</span>
+        <span class="skill-chip"><i class="fas fa-plug"></i> APIs REST</span>
+        <span class="skill-chip"><i class="fab fa-git-alt"></i> Git</span>
+        <span class="skill-chip"><i class="fas fa-table"></i> Excel</span>
+      </div>
+    </div>
+  </section>
 
-					</div>
+  <!-- MAIN -->
+  <main class="main-wrap" id="main-content">
+    <div class="section-header">
+      <p class="section-eyebrow">Formação</p>
+      <h2 class="section-title">Diplomas e Certificações</h2>
+    </div>
 
-				<!-- Footer -->
-				<footer id="footer">
-					<section class="split contact">
-						<section class="alt">
-							<h3>Location</h3>
-							<p>São Paulo - SP,  Brazil
-							</p>
-						</section>
-						<section>
-							<h3>Phone</h3>
-							<p><a href="tel:+5537998186436">+55 (37) 99818-6436</a></p>
-						</section>
-						<section>
-							<h3>Email</h3>
-							<p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=joaovhmadeira@gmail.com" target="_blank">joaovhmadeira@gmail.com</a></p>
-						</section>
-						<section>
-							<h3>Social</h3>
-							<ul class="icons alt">
-								<li><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-								<li><a href="https://github.com/JoaoVictor-HM" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-							</ul>
-						</section>
-					</section>
-				</footer>
+    <div class="degrees-list">
 
-			<!-- Copyright -->
-				<div id="copyright">
-					<ul><li>&copy; JoaoVictorHM</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-				</div>
+      <!-- Bacharelado -->
+      <article class="degree-card">
+        <div class="degree-card-body">
+          <span class="degree-badge academic">
+            <i class="fas fa-graduation-cap"></i>
+            Graduação
+          </span>
+          <h3 class="degree-title">Bacharelado em Ciências da Computação</h3>
+          <p class="degree-date">
+            <i class="far fa-calendar-alt"></i>
+            29 de Agosto de 2022 &nbsp;&middot;&nbsp; UNIFEI
+          </p>
+          <p class="degree-desc">
+            Em agosto de 2022 me formei em Ciências da Computação pela UNIFEI — Universidade Federal de Itajubá.
+          </p>
+        </div>
+        <div class="degree-card-image">
+          <img src="images/graduation-unifei.png" alt="Diploma UNIFEI" />
+        </div>
+      </article>
 
-		</div>
+      <!-- Google Certification -->
+      <article class="degree-card">
+        <div class="degree-card-body">
+          <span class="degree-badge certification">
+            <i class="fas fa-certificate"></i>
+            Certificação Profissional
+          </span>
+          <h3 class="degree-title">Certificação em Análise de Dados do Google</h3>
+          <p class="degree-date">
+            <i class="far fa-calendar-alt"></i>
+            08 de Novembro de 2022 &nbsp;&middot;&nbsp; Google / Coursera
+          </p>
+          <p class="degree-desc">
+            Certificação profissional em análise de dados oferecida pelo Google em parceria com o Coursera. Abrange todas as etapas do processo de análise de dados, incluindo Excel e R.
+            Veja a credencial: <a href="https://www.credly.com/badges/e001c4ef-7d66-4e16-8115-6a8b89dfe25f/linked_in?t=rl201p" target="_blank">Credly</a>.
+            Projeto final disponível <a href="https://notch-reptile-02c.notion.site/Case-Study-Cyclistic-f0c7d992871b4b058aa3d2d21cecae19" target="_blank">aqui</a>.
+          </p>
+        </div>
+        <div class="degree-card-image">
+          <img src="images/google_certificate.png" alt="Google Data Analytics Certificate" />
+        </div>
+      </article>
 
-			</div>
+    </div>
+  </main>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Localização</h4>
+          <p>São Paulo - SP, Brasil</p>
+        </div>
+        <div class="footer-col">
+          <h4>Telefone</h4>
+          <a href="tel:+5537998186436">+55 (37) 99818-6436</a>
+        </div>
+        <div class="footer-col">
+          <h4>Email</h4>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=joaovhmadeira@gmail.com" target="_blank">
+            joaovhmadeira@gmail.com
+          </a>
+        </div>
+        <div class="footer-col">
+          <h4>Redes Sociais</h4>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="footer-social-btn" title="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/JoaoVictor-HM" target="_blank" class="footer-social-btn" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 JoaoVictorHM</span>
+        <span>Feito com <i class="fas fa-heart" style="color:var(--indigo)"></i> e código</span>
+      </div>
+    </div>
+  </footer>
 
-	</body>
+  <script src="assets/js/main.js"></script>
+</body>
 </html>

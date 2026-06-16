@@ -1,132 +1,295 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>João Victor's Projects</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Victor — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
 
-		<div id="wrapper" class="fade-in">
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index_en.html" class="nav-brand">João Victor</a>
+      <ul class="nav-links">
+        <li class="active"><a href="index_en.html">Home</a></li>
+        <li><a href="ai_agents_en.html">AI Agents</a></li>
+        <li><a href="data_analytics_en.html">Data Analysis</a></li>
+        <li><a href="degrees_en.html">Degrees &amp; Certifications</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="nav-icon" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+        <a href="https://github.com/JoaoVictor-HM" target="_blank" class="nav-icon" title="GitHub">
+          <i class="fab fa-github"></i>
+          <span class="sr-only">GitHub</span>
+        </a>
+        <a href="index.html" class="nav-lang">
+          <i class="fas fa-globe"></i>
+          Português
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-				<div id="intro">
-						<img src="images/profile-pic.png" alt="profile-pic" width="250" height="250">
-						<h1>Hi, my name is<br />
-						João Victor</h1>
-						<h2>and this is my portfolio</h2>
-						<p>Here you will find projects developed by <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank">@joaovictorhm</a> using APIs, n8n, SQL, Power BI, Python and other tools.<br />
-						<ul class="actions">
-							<li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+  <!-- MOBILE NAV -->
+  <div class="nav-mobile" id="navMobile">
+    <ul>
+      <li class="active"><a href="index_en.html">Home</a></li>
+      <li><a href="ai_agents_en.html">AI Agents</a></li>
+      <li><a href="data_analytics_en.html">Data Analysis</a></li>
+      <li><a href="degrees_en.html">Degrees &amp; Certifications</a></li>
+    </ul>
+    <div class="nav-mobile-divider"></div>
+    <div class="nav-mobile-actions">
+      <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="nav-icon" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/JoaoVictor-HM" target="_blank" class="nav-icon" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="index.html" class="nav-lang" style="margin-left:auto">
+        <i class="fas fa-globe"></i> Português
+      </a>
+    </div>
+  </div>
 
-				<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="#main" class="scrolly">AI Agents</a></li>
-							<li><a href="data_analytics_en.html">Data Analysis</a></li>
-							<li><a href="degrees_en.html">Degrees and Certifications</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/JoaoVictor-HM" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-						<ul class="actions" style="margin: 0 0 0 2em;">
-							<li><a href="index.html" class="button small icon solid fa-language" style="color: #ffffff !important; border-color: #ffffff !important;">Português</a></li>
-						</ul>
-					</nav>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-avatar-wrap">
+        <div class="hero-avatar-ring"></div>
+        <div class="hero-avatar">
+          <img src="images/profile-pic.png" alt="João Victor" />
+        </div>
+      </div>
+      <span class="hero-eyebrow">Portfolio</span>
+      <h1 class="hero-title">Hi, I'm<br>João Victor</h1>
+      <p class="hero-subtitle">AI Automation &amp; Data Analysis</p>
+      <p class="hero-desc">
+        Explore my projects and learn more about my journey in data and AI automation.
+      </p>
+      <a href="#main-content" class="hero-cta">
+        <i class="fas fa-arrow-down"></i>
+        Learn more
+      </a>
+    </div>
+  </section>
 
-				<div id="main">
+  <!-- MAIN -->
+  <main class="main-wrap" id="main-content">
 
-						<section class="posts">
-								
-								<article>
-									<header>
-										<span class="date">November 03, 2025</span>
-										<h2><a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/hubspot.json" target="_blank">HubSpot Ticket Creation and Tracking Workflow<br /></a></h2>
-									</header>
-									<a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/hubspot.json" target="_blank" class="image fit"><img src="images/hubspot.png" alt="" /></a>
-									<p>Automation workflow for creating and tracking tickets in HubSpot, developed with n8n. The flow allows ticket creation using natural language and monitoring the status of existing tickets.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/hubspot.json" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">October 11, 2025</span>
-										<h2><a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/newsletter.json" target="_blank">New Tools Release Newsletter Dispatch Workflow<br /></a></h2>
-									</header>
-									<a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/newsletter.json" target="_blank" class="image fit"><img src="images/newsletter.png" alt="" /></a>
-									<p>Automation workflow for sending a newsletter about new tool launches, developed with n8n. The flow enables the automatic creation and delivery of personalized newsletters based on a contact list.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/newsletter.json" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">September 15, 2025</span>
-										<h2><a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/mysql.json" target="_blank">SQL Command Execution Workflow for AWS-Hosted MySQL<br /></a></h2>
-									</header>
-									<a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/mysql.json" target="_blank" class="image fit"><img src="images/mysql.png" alt="" /></a>
-									<p>Automation workflow for executing SQL commands on a MySQL database hosted on AWS, developed with n8n. The flow facilitates remote database operations, streamlining administrative and operational tasks.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/mysql.json" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">August 02, 2025</span>
-										<h2><a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/ppr_tool_calling.json" target="_blank">AWS Lambda-Hosted Tool Execution Workflow<br /></a></h2>
-									</header>
-									<a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/ppr_tool_calling.json" target="_blank" class="image fit"><img src="images/ppr_tool_calling.png" alt="" /></a>
-									<p>Automation workflow for executing tools hosted on AWS Lambda, developed with n8n. This flow manages calls to Lambda functions for complex tasks requiring remote resources, specifically facilitating Fuzzy Clustering code execution.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/joaovhmadeira-web/N8N-Workflows/blob/main/ppr_tool_calling.json" target="_blank" class="button">View Project</a></li>
-									</ul>
-								</article>
-							</section>
+    <!-- ABOUT -->
+    <div class="about-section">
+      <div class="section-header">
+        <p class="section-eyebrow">About</p>
+        <h2 class="section-title">About me</h2>
+      </div>
+      <div class="about-card">
+        <div class="about-header">
+          <div class="about-avatar">
+            <img src="images/profile-pic.png" alt="João Victor" />
+          </div>
+          <div>
+            <p class="about-name">João Victor Henrique Madeira</p>
+            <p class="about-role">AI Developer &amp; Data Analyst</p>
+            <p class="about-location"><i class="fas fa-map-marker-alt"></i> São Paulo, Brazil</p>
+          </div>
+        </div>
+        <div class="about-body">
+          <div class="about-text">
+            <p>Hi, I'm João Victor! Born in Minas Gerais, passionate about technology and a neuroscience enthusiast. Here I present some projects I developed to study concepts and apply knowledge in tools and languages focused on data and AI automation.</p>
+            <p>With a Computer Science degree from UNIFEI (2022), I built my career at the intersection of data and artificial intelligence. Shortly after graduating, I earned Google's Professional Data Analytics Certificate — strengthening my analytical foundation and opening the door to increasingly complex projects.</p>
+            <p>Today I work across two complementary pillars: I build AI agents and automation workflows with n8n, integrating tools like HubSpot, MySQL, and AWS Lambda; and I extract value from data through interactive Power BI dashboards and analyses with Python and R.</p>
+          </div>
+          <div class="about-highlights">
+            <div class="about-highlight">
+              <div class="about-highlight-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <div class="about-highlight-content">
+                <h4>AI Agents &amp; Automation</h4>
+                <p>n8n workflows integrating APIs, tools, and language models to automate complex processes.</p>
+              </div>
+            </div>
+            <div class="about-highlight">
+              <div class="about-highlight-icon cyan">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+              <div class="about-highlight-content">
+                <h4>Data Analysis &amp; BI</h4>
+                <p>Power BI dashboards and Python analyses that turn raw data into actionable insights.</p>
+              </div>
+            </div>
+            <div class="about-highlight">
+              <div class="about-highlight-icon purple">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="about-highlight-content">
+                <h4>Solid CS Foundation</h4>
+                <p>Bachelor's in Computer Science (UNIFEI) and Google's Professional Data Analytics Certificate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-					</div>
+    <!-- SKILLS -->
+    <div class="section-header">
+      <p class="section-eyebrow">Skills</p>
+      <h2 class="section-title">Tools &amp; Technologies</h2>
+    </div>
 
-				<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>São Paulo - SP, Brazil
-								</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="tel:+5537998186436">+55 (37) 99818-6436</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=joaovhmadeira@gmail.com" target="_blank">joaovhmadeira@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://github.com/JoaoVictor-HM" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+    <div class="skill-cards-grid">
+      <div class="skill-card-big">
+        <div class="skill-card-big-icon">
+          <i class="fas fa-sitemap"></i>
+        </div>
+        <p class="skill-card-big-name">n8n</p>
+        <p class="skill-card-big-desc">AI automation and agents integrating APIs, databases, and cloud services.</p>
+      </div>
+      <div class="skill-card-big">
+        <div class="skill-card-big-icon cyan">
+          <i class="fab fa-python"></i>
+        </div>
+        <p class="skill-card-big-name">Python</p>
+        <p class="skill-card-big-desc">Exploratory data analysis, scripts, pipelines, and applications with Pandas and Streamlit.</p>
+      </div>
+      <div class="skill-card-big">
+        <div class="skill-card-big-icon purple">
+          <i class="fas fa-chart-pie"></i>
+        </div>
+        <p class="skill-card-big-name">Power BI</p>
+        <p class="skill-card-big-desc">Interactive dashboards and analytical reports with data modeling and DAX.</p>
+      </div>
+      <div class="skill-card-big">
+        <div class="skill-card-big-icon">
+          <i class="fas fa-database"></i>
+        </div>
+        <p class="skill-card-big-name">SQL</p>
+        <p class="skill-card-big-desc">Querying, modeling, and managing relational databases such as MySQL.</p>
+      </div>
+      <div class="skill-card-big">
+        <div class="skill-card-big-icon cyan">
+          <i class="fab fa-aws"></i>
+        </div>
+        <p class="skill-card-big-name">AWS</p>
+        <p class="skill-card-big-desc">Running Lambda functions, hosting databases, and integrating with n8n workflows.</p>
+      </div>
+      <div class="skill-card-big">
+        <div class="skill-card-big-icon purple">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <p class="skill-card-big-name">R</p>
+        <p class="skill-card-big-desc">Statistical analysis, machine learning, and scientific data visualization.</p>
+      </div>
+    </div>
 
-				<div id="copyright">
-						<ul><li>&copy; JoaoVictorHM</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+    <div class="skills-chips" style="margin-bottom: 4.5rem">
+      <span class="skill-chip"><i class="fas fa-desktop"></i> Streamlit</span>
+      <span class="skill-chip"><i class="fab fa-python"></i> Pandas</span>
+      <span class="skill-chip"><i class="fas fa-code"></i> DAX</span>
+      <span class="skill-chip"><i class="fas fa-plug"></i> REST APIs</span>
+      <span class="skill-chip"><i class="fab fa-git-alt"></i> Git</span>
+      <span class="skill-chip"><i class="fas fa-table"></i> Excel</span>
+    </div>
 
-			</div>
+    <!-- SECTION NAVIGATION -->
+    <div class="section-header">
+      <p class="section-eyebrow">Portfolio</p>
+      <h2 class="section-title">Explore projects</h2>
+    </div>
 
-		<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <div class="section-links-grid">
+      <a href="ai_agents_en.html" class="section-link-card">
+        <div class="section-link-icon indigo">
+          <i class="fas fa-robot"></i>
+        </div>
+        <span class="section-link-count">4 projects</span>
+        <p class="section-link-title">AI Agents</p>
+        <p class="section-link-desc">n8n automation workflows integrating HubSpot, MySQL, and AWS Lambda with natural language and AI.</p>
+        <span class="section-link-arrow">
+          View projects <i class="fas fa-arrow-right"></i>
+        </span>
+      </a>
 
-	</body>
+      <a href="data_analytics_en.html" class="section-link-card">
+        <div class="section-link-icon cyan">
+          <i class="fas fa-chart-bar"></i>
+        </div>
+        <span class="section-link-count">7 projects</span>
+        <p class="section-link-title">Data Analysis</p>
+        <p class="section-link-desc">Power BI dashboards and Python and R analyses covering topics like traffic accidents, sales, and real estate.</p>
+        <span class="section-link-arrow">
+          View projects <i class="fas fa-arrow-right"></i>
+        </span>
+      </a>
+
+      <a href="degrees_en.html" class="section-link-card">
+        <div class="section-link-icon purple">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <span class="section-link-count">2 certifications</span>
+        <p class="section-link-title">Degrees &amp; Certifications</p>
+        <p class="section-link-desc">Bachelor's in Computer Science from UNIFEI and Google's Professional Data Analytics Certificate.</p>
+        <span class="section-link-arrow">
+          View education <i class="fas fa-arrow-right"></i>
+        </span>
+      </a>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Location</h4>
+          <p>São Paulo - SP, Brazil</p>
+        </div>
+        <div class="footer-col">
+          <h4>Phone</h4>
+          <a href="tel:+5537998186436">+55 (37) 99818-6436</a>
+        </div>
+        <div class="footer-col">
+          <h4>Email</h4>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=joaovhmadeira@gmail.com" target="_blank">
+            joaovhmadeira@gmail.com
+          </a>
+        </div>
+        <div class="footer-col">
+          <h4>Social</h4>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-henrique-madeira-68120015b/" target="_blank" class="footer-social-btn" title="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/JoaoVictor-HM" target="_blank" class="footer-social-btn" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 JoaoVictorHM</span>
+        <span>Built with <i class="fas fa-heart" style="color:var(--indigo)"></i> and code</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
